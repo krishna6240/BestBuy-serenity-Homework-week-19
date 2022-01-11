@@ -1,0 +1,7 @@
+com\bestbuy\crudtest\CategoriesCRUDTest.class
+com\bestbuy\testbase\TestBase.class
+com\bestbuy\crudtest\ProductCRUDTest.class
+com\bestbuy\crudtest\StoresCRUDTest.class
+com\bestbuy\AppTest.class
+com\bestbuy\crudtest\GetAllProducts.class
+com\bestbuy\crudtest\ServicesCRUDTest.class

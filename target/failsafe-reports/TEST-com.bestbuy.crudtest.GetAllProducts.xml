@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.crudtest.GetAllProducts" time="4.085" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Krishna\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.2\bin;C:\Program Files\Apache\apache-maven-3.8.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\python\python3;C:\Users\Krishna\AppData\Local\Microsoft\WindowsApps;C:\Users\Krishna\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Krishna"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Krishna"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="gettallProducts" classname="com.bestbuy.crudtest.GetAllProducts" time="4.085">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.crudtest.GetAllProducts.gettallProducts(GetAllProducts.java:16)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[11107 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: This test will delete the categories information and verify the categories is deleted 
+---------------------------------------------------------------------
+11109 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Deleting the Categories information with CategoriesId :
+11109 [main] ERROR net.serenitybdd.core.Serenity - parameterValue cannot be null
+11495 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will delete the categories information and verify the categories is deleted  to file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\6666eec55bed1742fc605d1a4f4803f45cde7e5c1780c463e5c9f6b27a2ac3db.json (using temp file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\6666eec55bed1742fc605d1a4f4803f45cde7e5c1780c463e5c9f6b27a2ac3db.json73c71f0e-b1f6-47c6-a84f-fe74e324cb26)
+11499 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will update the categories information and verify the updated information to file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\c27b7ecb4ebb7576509bdb1f4660efd24e5783533144313ae9b4526e12165e12.json (using temp file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\c27b7ecb4ebb7576509bdb1f4660efd24e5783533144313ae9b4526e12165e12.json22e6a748-34ae-4697-b94d-48aa6c5fcaf3)
+11509 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get the categories information by ID to file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\375d3320bb7d91ca009be95122ebc4a32a09c592e4387c349f59881df036ff9e.json (using temp file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\375d3320bb7d91ca009be95122ebc4a32a09c592e4387c349f59881df036ff9e.json210650fb-d2bc-4295-a243-b749638dca05)
+11540 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will create a new categories and verify its generated to file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\95389e0aaa57d9953a759e7e510e0d11afd91b8b112a1e57c0c0c866460a0a5f.json (using temp file C:\Users\Krishna\IdeaProjects\Bestbuyapi_restassured\BestBuy-serenity-HomeworkWeek-19-Project\target\site\serenity\95389e0aaa57d9953a759e7e510e0d11afd91b8b112a1e57c0c0c866460a0a5f.json3dc27530-c273-458a-9a2a-1eaabc2a4a5e)
+12082 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CRUD test:test002 in 375d3320bb7d91ca009be95122ebc4a32a09c592e4387c349f59881df036ff9e.html in directory target\site\serenity  
+12089 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CRUD test:test001 in 95389e0aaa57d9953a759e7e510e0d11afd91b8b112a1e57c0c0c866460a0a5f.html in directory target\site\serenity  
+12090 [pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CRUD test:test004 in 6666eec55bed1742fc605d1a4f4803f45cde7e5c1780c463e5c9f6b27a2ac3db.html in directory target\site\serenity  
+12094 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CRUD test:test003 in c27b7ecb4ebb7576509bdb1f4660efd24e5783533144313ae9b4526e12165e12.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+</testsuite>

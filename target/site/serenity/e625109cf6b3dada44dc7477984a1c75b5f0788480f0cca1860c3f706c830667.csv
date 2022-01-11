@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Categories CRUD test","This test will create a new categories and verify its generated","ERROR","2022-01-11T14:39:40.046Z[Europe/London]","0.0","9.5"
+"Categories CRUD test","This test will get the categories information by ID","ERROR","2022-01-11T14:39:49.835Z[Europe/London]","0.0","0.02"
+"Categories CRUD test","This test will update the categories information and verify the updated information","ERROR","2022-01-11T14:39:49.882Z[Europe/London]","0.0","0.02"
+"Categories CRUD test","This test will delete the categories information and verify the categories is deleted ","ERROR","2022-01-11T14:39:49.941Z[Europe/London]","0.0","0.02"

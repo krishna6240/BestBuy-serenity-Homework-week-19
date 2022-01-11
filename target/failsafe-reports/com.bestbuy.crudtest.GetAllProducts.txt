@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.crudtest.GetAllProducts
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.085 sec <<< FAILURE! - in com.bestbuy.crudtest.GetAllProducts
+gettallProducts(com.bestbuy.crudtest.GetAllProducts)  Time elapsed: 4.085 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.crudtest.GetAllProducts.gettallProducts(GetAllProducts.java:16)
+

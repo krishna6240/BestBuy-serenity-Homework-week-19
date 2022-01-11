@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.crudtest.CategoriesCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 13.391 sec <<< FAILURE! - in com.bestbuy.crudtest.CategoriesCRUDTest
+test001(com.bestbuy.crudtest.CategoriesCRUDTest)  Time elapsed: 9.58 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.crudtest.CategoriesCRUDTest.test001(CategoriesCRUDTest.java:28)
+
+test002(com.bestbuy.crudtest.CategoriesCRUDTest)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.crudtest.CategoriesCRUDTest.test002(CategoriesCRUDTest.java:36)
+
+test003(com.bestbuy.crudtest.CategoriesCRUDTest)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.crudtest.CategoriesCRUDTest.test003(CategoriesCRUDTest.java:46)
+
+test004(com.bestbuy.crudtest.CategoriesCRUDTest)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.crudtest.CategoriesCRUDTest.test004(CategoriesCRUDTest.java:54)
+
